@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Mulish', Roboto, sans-serif;
+}
+
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.jumbotron p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.jumbotron h1,
+h2 {
+  font-weight: 700;
+}
+
+.rectangle {
+  width: 75%;
+  min-height: 20vh;
+
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+}
+
+a {
+  color: white;
+}
+
+button.btn {
+  color: #458ff6;
+  background: #ffffff;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  width: 150px;
+}
