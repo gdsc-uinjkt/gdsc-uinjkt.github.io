@@ -22,11 +22,7 @@ h2 {
   font-weight: 700;
 }
 
-#our-activities,
-#weekly-class,
-#google-events,
-#core-team,
-#our-team {
+section {
   padding-top: 120px;
 }
 
@@ -63,9 +59,7 @@ button.btn {
   height: 150px;
 }
 
-#our-activities p,
-#google-events p,
-#our-team p {
+section p {
   font-weight: 200;
 }
 
@@ -84,7 +78,7 @@ button.btn {
   margin: auto;
 }
 
-.card p {
+.card-text {
   font-size: 0.85rem;
   text-align: justify;
   text-justify: inter-word;
