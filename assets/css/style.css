@@ -4,9 +4,8 @@ body {
   font-family: 'Mulish', Roboto, sans-serif;
 }
 
-.fixed-top.scrolled {
+.fixed-top {
   background-color: #fff !important;
-  transition: background-color 200ms linear;
 }
 
 .active {
@@ -21,6 +20,14 @@ body {
 .jumbotron h1,
 h2 {
   font-weight: 700;
+}
+
+#our-activities,
+#weekly-class,
+#google-events,
+#core-team,
+#our-team {
+  padding-top: 120px;
 }
 
 .rectangle {
@@ -42,4 +49,43 @@ button.btn {
   box-sizing: border-box;
   border-radius: 55px;
   width: 150px;
+}
+
+#our-activities .card {
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+
+  padding-top: 10px;
+}
+
+#our-activities .card img {
+  height: 150px;
+}
+
+#our-activities p,
+#google-events p,
+#our-team p {
+  font-weight: 200;
+}
+
+#weekly-class .card {
+  background: linear-gradient(180deg, #deeefe 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 15px;
+  padding-top: 10px;
+  border: none;
+
+  padding-bottom: 50px;
+}
+
+#weekly-class .card img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.card p {
+  font-size: 0.85rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
