@@ -83,3 +83,11 @@ section p {
   text-align: justify;
   text-justify: inter-word;
 }
+
+footer {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+footer a {
+  text-decoration: none;
+}
